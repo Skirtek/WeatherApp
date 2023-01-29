@@ -109,6 +109,7 @@ export const FutureWeather = (props: FutureWeatherProps) => {
                             <Text>Humidity: {view?.humidity}%</Text>
                             <Text>Wind speed: {view?.windSpeed} m/s</Text>
                             <Text>Feels like: {view?.feelsLike}°C</Text>
+                            <Text>Description: {view?.description}</Text>
                           </Box>
                         </AccordionPanel>
                       </AccordionItem>
